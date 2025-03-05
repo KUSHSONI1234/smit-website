@@ -1,0 +1,63 @@
+.navbar-section{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    box-shadow: 0 0 30px rgba(136, 80, 247, 0.369);
+}
+.navbar-section .nav-left{
+    width: 25%;
+    /* background-color: antiquewhite; */
+}
+.navbar-section .nav-center{
+    /* background-color: blueviolet; */
+    width: 43%;
+}
+.navbar-section .nav-right{
+    /* background-color: aqua; */
+    width: 25%;
+    text-align: center;
+}
+.nav-left .logo h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.nav-center nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-center nav ul li a{
+    font-size: 20px;
+    color: #8A8893;
+    font-weight: 500;
+}
+
+.nav-right button{
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+    background-size: 200%;
+    position: relative;
+    /* gap: 60px; */
+    background-image: -webkit-gradient(linear, left top, right top, from(#8750f7), color-stop(51%, #2a1454), to(#8750f7));
+    background-image: linear-gradient(to right, #8750f7 0%, #2a1454 51%, #8750f7 100%);
+    transition: all 0.3s linear;
+}
+.nav-right button a{
+    color: white;
+    cursor: pointer;
+}
+
+.nav-right button:hover
+{
+    background-position: -100%;
+}
