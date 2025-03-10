@@ -1,13 +1,13 @@
     .home-section{
         height: auto;
         width: 100%;
-        margin: 3.5rem 0 2rem;
+        margin: 3rem 0 2rem;
         /* background-color:paleturquoise; */
         /* margin: 8rem 0 3rem; */
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 15%;
+        padding: 0 12%;
     }
     .home-left .home-title{
         font-size: 42px;
@@ -22,26 +22,8 @@
         margin-bottom: 1.8rem;
     }
     .home-left .home-heading span{
-        /* color: #8750F7; */
-        background-image: -webkit-gradient(linear, left top, right top, 
-        from(#8750f7), 
-        color-stop(25%, #4b29a5), 
-        color-stop(50%, #2a1454), 
-        color-stop(75%, #6c5ecf), 
-        to(#3a1c71)
-    );
-    background-image: linear-gradient(to right, 
-        #8750f7 0%, 
-        #4b29a5 25%, 
-        #2a1454 50%, 
-        #6c5ecf 75%, 
-        #3a1c71 100%
-    );
-    
-        /* position: relative; */
-        -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    /* background-size: 200%; */
+        color: #8750F7;
+       
     }
     .home-left a {
         display: inline-block;
@@ -88,8 +70,8 @@
     {
         /* background-color: #8750F7; */
         width: 100%;
-        margin-top: 5rem;
-        height: 50vh;
+        margin: 5rem 0 3rem;
+        height: auto;
         padding: 0 8%;
     }
     .home-contact h1{
