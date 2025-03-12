@@ -1,65 +1,139 @@
-.skills-section
-{
+.skills-section {
     width: 100%;
-    /* background-color: antiquewhite; */
     padding: 0 8%;
 }
-.skills-section h1{
+
+.skills-section h1 {
     text-align: center;
     margin-top: 3rem;
     color: white;
     font-weight: 500;
     font-size: 42px;
 }
-.skills-section span{
+
+.skills-section span {
     color: #8750F7;
 }
-.skills-container
-{
+
+.skills-container {
     width: 100%;
     margin: 3rem 0;
-    height: 50vh;
-    display: flex;
-    justify-content: space-between;
-    /* background-color:aliceblue; */
-    position: relative;
-    /* transition: all 30s linear; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Dynamic grid for responsiveness */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
-.skills-container div{
-    width: 220px;
-    height: 200px;
+
+.skills-container div {
+    width: 180px;
+    height: 180px;
     border-radius: 10px;
-    /* background-color: antiquewhite; */
-    
     background-color: #140C1C;
-    
-    border: 1px solid rgba(129, 76, 236, 0.15);;
+    border: 1px solid rgba(129, 76, 236, 0.15);
     position: relative;
-    /* transition: all 0.4s linear; */
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-.skills-container div:hover{
+
+.skills-container div:hover {
     box-shadow: 0 0 30px rgba(136, 80, 247, 0.458);
-    border: 1px solid #8750F7;
-    
+    border: 1px solid #7b4ed5;
+    transform: scale(1.05);
 }
-.skills-container div i{
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
+
+.skills-container div i {
+    font-size: 40px;
     color: white;
 }
-.skills-container div p{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    display: none;
+
+.skills-container div p {
     color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
-.skills-container div:hover p{
+
+.skills-container div:hover p {
+    opacity: 1;
+}
+
+.skills-section button {
+    background: linear-gradient(90deg, #8750f7 0%, #2a1454 51%, #8750f7 100%);
+    background-size: 200%;
+    text-align: center;
     display: block;
-    /* background-color: #8750F7; */
+    margin: 0 auto;
+    padding: 15px 35px;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.skills-section button:hover {
+    background: transparent;
+    color: #8750F7;
+    border: 1px solid #8750F7;
+    box-shadow: 0 4px 15px rgba(136, 80, 247, 0.4);
+}
+
+
+.skills-section button {
     position: relative;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 14px 35px;
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+    background: linear-gradient(135deg, #8750f7 0%, #2a1454 51%, #8750f7 100%);
+    background-size: 200%;
+}
+
+/* Neon Glow Effect */
+.skills-section button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350%;
+    height: 350%;
+    background: radial-gradient(circle, rgba(136, 80, 247, 0.4) 10%, transparent 70%);
+    transition: all 0.5s ease-in-out;
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+}
+
+/* Hover Ripple Effect */
+.skills-section button:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+}
+
+/* Glowing Border on Hover */
+.skills-section button:hover {
+    background-position: right center;
+    color: #8750F7;
+    border: 2px solid #8750F7;
+    box-shadow: 0px 0px 15px rgba(136, 80, 247, 0.7);
+}
+
+/* Button Click Effect */
+.skills-section button:active {
+    transform: scale(0.95);
 }

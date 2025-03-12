@@ -1,31 +1,14 @@
 <div class="skills-section">
     <h1 class="skills-heading">Professional <span>Skillset</span></h1>
+    
     <div class="skills-container">
-        <div>
-            <i class="devicon-cplusplus-plain"></i>
-            <p>C++</p>
-            <!-- {{box.title}} -->
+        <div *ngFor="let skill of skills.slice(0, visibleSkills)">
+            <i [class]="skill.icon"></i>
+            <p>{{ skill.name }}</p>
         </div>
-        <div>
-            <i class="devicon-cplusplus-plain"></i>
-            <p>C</p>
-            <!-- {{box.title}} -->
-        </div>
-        <div>
-            <i class="devicon-cplusplus-plain"></i>
-            <p>Html</p>
-            <!-- {{box.title}} -->
-        </div>
-        <div>
-            <i class="devicon-cplusplus-plain"></i>
-            <p>CSS</p>
-            <!-- {{box.title}} -->
-        </div>
-        <div>
-            <i class="devicon-cplusplus-plain"></i>
-            <p>JS</p>
-            <!-- {{box.title}} -->
-        </div>
-        
     </div>
+
+    <button (click)="toggleView()">
+        {{ isExpanded ? 'View Less' : 'View More' }}
+    </button>
 </div>
