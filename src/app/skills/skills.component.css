@@ -1,0 +1,65 @@
+.skills-section
+{
+    width: 100%;
+    /* background-color: antiquewhite; */
+    padding: 0 8%;
+}
+.skills-section h1{
+    text-align: center;
+    margin-top: 3rem;
+    color: white;
+    font-weight: 500;
+    font-size: 42px;
+}
+.skills-section span{
+    color: #8750F7;
+}
+.skills-container
+{
+    width: 100%;
+    margin: 3rem 0;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    /* background-color:aliceblue; */
+    position: relative;
+    /* transition: all 30s linear; */
+}
+.skills-container div{
+    width: 220px;
+    height: 200px;
+    border-radius: 10px;
+    /* background-color: antiquewhite; */
+    
+    background-color: #140C1C;
+    
+    border: 1px solid rgba(129, 76, 236, 0.15);;
+    position: relative;
+    /* transition: all 0.4s linear; */
+    
+}
+.skills-container div:hover{
+    box-shadow: 0 0 30px rgba(136, 80, 247, 0.458);
+    border: 1px solid #8750F7;
+    
+}
+.skills-container div i{
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: white;
+}
+.skills-container div p{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    color: white;
+}
+.skills-container div:hover p{
+    display: block;
+    /* background-color: #8750F7; */
+    position: relative;
+}
