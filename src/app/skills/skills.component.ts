@@ -4,26 +4,39 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-skills',
-  standalone: true,
-  imports: [FormsModule, CommonModule],
   templateUrl: './skills.component.html',
-  styleUrl: './skills.component.css'
+  styleUrls: ['./skills.component.css'],
+  imports:[FormsModule,CommonModule]
 })
 export class SkillsComponent {
   skills = [
-    { name: 'C++', icon: 'devicon-cplusplus-plain' },
-    { name: 'C', icon: 'devicon-cplusplus-plain' },
-    { name: 'HTML', icon: 'devicon-html5-plain' },
-    { name: 'CSS', icon: 'devicon-css3-plain' },
-    { name: 'JavaScript', icon: 'devicon-javascript-plain' },
-    { name: 'Node.js', icon: 'devicon-nodejs-plain' },
-    { name: 'React.js', icon: 'devicon-react-original' },
-    { name: 'MongoDB', icon: 'devicon-mongodb-plain' },
-    { name: 'Express.js', icon: 'devicon-express-original' },
-    { name: 'Angular', icon: 'devicon-angular-plain' }
+    { name: 'C', icon: 'fa-brands fa-cuttlefish' },
+    { name: 'C++', icon: 'fa-solid fa-code' },
+    { name: 'HTML', icon: 'fa-brands fa-html5' },
+    { name: 'CSS', icon: 'fa-brands fa-css3' },
+    { name: 'JavaScript', icon: 'fa-brands fa-js' },
+    { name: 'MongoDB', icon: 'fa-solid fa-database' },
+    { name: 'MySQL', icon: 'fa-solid fa-database' },
+    { name: 'MS SQL Server', icon: 'fa-solid fa-server' },
+    { name: 'Python', icon: 'fa-brands fa-python' },
+    { name: 'Android Studio', icon: 'fa-brands fa-android' },
+    { name: 'GitHub', icon: 'fa-brands fa-github' },
+    { name: 'Git', icon: 'fa-brands fa-git' },
+    { name: 'Bootstrap', icon: 'fa-brands fa-bootstrap' },
+    { name: 'Wireshark', icon: 'fa-solid fa-network-wired' },
+    { name: 'Metasploit', icon: 'fa-solid fa-shield-alt' },
+    { name: 'Kali Linux', icon: 'fa-brands fa-linux' },
+    { name: 'Nessus', icon: 'fa-solid fa-shield-virus' },
+    { name: 'John the Ripper', icon: 'fa-solid fa-user-secret' },
+    { name: 'NMAP', icon: 'fa-solid fa-map' },
+    { name: 'SNORT', icon: 'fa-solid fa-cloud' },
+    { name: 'Burp Suite', icon: 'fa-solid fa-bug' },
+    { name: 'Splunk', icon: 'fa-solid fa-chart-line' },
+    { name: 'Aircrack-ng', icon: 'fa-solid fa-wifi' },
+    { name: 'Nikto',  icon: 'fa-solid fa-skull-crossbones' }
   ];
 
-  visibleSkills = 5;
+  visibleSkills = 5; // Show initial number of skills
   isExpanded = false;
 
   toggleView() {

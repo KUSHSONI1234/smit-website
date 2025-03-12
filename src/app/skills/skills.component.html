@@ -2,7 +2,7 @@
     <h1 class="skills-heading">Professional <span>Skillset</span></h1>
     
     <div class="skills-container">
-        <div *ngFor="let skill of skills.slice(0, visibleSkills)">
+        <div *ngFor="let skill of skills.slice(0, visibleSkills)" class="skill-card">
             <i [class]="skill.icon"></i>
             <p>{{ skill.name }}</p>
         </div>
