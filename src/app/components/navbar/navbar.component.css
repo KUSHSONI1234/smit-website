@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* background-color: #0EC9AC; */
     height: 100px;
     box-shadow: 0 0 30px rgba(136, 80, 247, 0.369);
 }
@@ -21,6 +22,7 @@
     /* background-color: aqua; */
     width: 25%;
     text-align: center;
+    /* ba */
 }
 .nav-left .logo h1{
     font-size: 40px;

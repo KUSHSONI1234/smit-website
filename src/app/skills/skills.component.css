@@ -2,6 +2,9 @@
     width: 100%;
     padding: 0 8%;
     text-align: center;
+    /* height: 100vh; */
+    /* background-color: aliceblue; */
+    /* height: 50vh; */
 }
 
 .skills-heading {
@@ -36,7 +39,7 @@
     height: 180px;
     border-radius: 10px;
     background-color: #140C1C;
-    border: 1px solid rgba(129, 76, 236, 0.15);
+    border: 1px solid rgba(123, 73, 225, 0.383);
     display: flex;
     justify-content: center;
     align-items: center;
