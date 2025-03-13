@@ -7,7 +7,7 @@ import { FooterComponent } from "../components/footer/footer.component";
   selector: 'app-skills',
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.css'],
-  imports: [FormsModule, CommonModule, FooterComponent]
+  imports: [FormsModule, CommonModule]
 })
 export class SkillsComponent {
   skills = [
