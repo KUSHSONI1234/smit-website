@@ -28,7 +28,9 @@
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
-
+.project-card p{
+    margin: 0.9rem 0;
+}
 /* Tech stack badges */
 .tech-stack {
     margin-top: 10px;
