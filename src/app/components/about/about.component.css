@@ -66,16 +66,17 @@
 
 .education-section
 {
-    height: 100vh;
+    height: auto;
     width: 100%;
-    margin-top: 7rem;
+    margin: 7rem 0 4.5rem;
     padding: 0 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* marb */
 }
 .education-section .education-section-left{
-    width: 55%;
+    width: 50%;
     /* background-color: aliceblue; */
 }
 .education-section .education-section-left h1{
@@ -108,7 +109,7 @@
     margin-bottom: 0.7rem;
 }
 .education-section-right{
-    width: 50%;
+    width: 51%;
 }
 .education-section-right img{
     width: 100%;
