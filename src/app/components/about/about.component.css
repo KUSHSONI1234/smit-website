@@ -70,12 +70,15 @@
     width: 100%;
     margin-top: 7rem;
     padding: 0 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .education-section .education-section-left{
     width: 55%;
     /* background-color: aliceblue; */
 }
-.education-section-left h1{
+.education-section .education-section-left h1{
     font-size: 50px;
     font-weight: 500;
     text-align: center;
@@ -84,7 +87,39 @@
 }
 .education-section-left h3{
     color: #8750F7;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 2.5rem;
 }
-
-
+.about-left .personality-title
+{
+    font-weight: 500;
+    /* font-size: px; */
+    margin: 2.5rem 0 1.5rem;
+    color:#8750F7;
+}
+.about-left .personality-title span{
+    color: white;
+}
+.about-left  ul li{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 0.7rem;
+}
+.education-section-right{
+    width: 50%;
+}
+.education-section-right img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 /*  */
+
+.education-section-left ul li{
+    color: white;
+    list-style-type: circle;
+    font-size: 17px;
+    margin-top: 0.8rem;
+}
