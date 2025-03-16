@@ -124,3 +124,8 @@
     font-size: 17px;
     margin-top: 0.8rem;
 }
+
+.certi-section
+{
+    display: flex;
+}

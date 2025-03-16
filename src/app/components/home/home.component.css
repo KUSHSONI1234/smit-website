@@ -110,7 +110,7 @@
         transform: translate(-50%, -50%);
     }
     .connect-box:hover{
-        box-shadow: 0 4px 20px rgba(136, 80, 247, 0.541);
+        box-shadow: 10px 4px 45px rgb(136, 80, 247);
 
     }
 
@@ -151,3 +151,5 @@
             transform: rotate(360deg) translateY(100px);
         }
     }
+
+    

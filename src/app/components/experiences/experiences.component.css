@@ -22,18 +22,15 @@
 }
 .experience-text  span
 {
-    background: linear-gradient(135deg, #1C99FE 5%, #7644FF 90%, #7D49E5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #8750F7;
 }
 .company
 {
-    background: linear-gradient(135deg, #1C99FE 1%, #7644FF 5%, #fd4766);
-    /* background-size: 200%;
-    /* position: relative; */
+    background-size: 200%;
+    position: relative;
     /* gap: 60px; */
-    
-    /* background-position: -100%; */
+    background-image: -webkit-gradient(linear, left top, right top, from(#8750f7), color-stop(51%, #2a1454), to(#8750f7));
+    background-image: linear-gradient(to right, #8750f7 0%, #474db8 25%, #8750f7 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 3rem;
@@ -130,5 +127,6 @@
 .experience-image img{
     width: 80%;
     height: auto;
+    opacity: 0.8;
     object-fit: cover;
 }

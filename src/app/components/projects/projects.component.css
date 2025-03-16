@@ -15,6 +15,9 @@
     
 }
 
+.project-container h2 span{
+    color:#8645D9;
+}
 /* Project card styling */
 .project-card {
     backdrop-filter: blur(10px);

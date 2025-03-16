@@ -14,9 +14,16 @@
     box-shadow: 0 0 30px rgba(136, 80, 247, 0.369);
     z-index: 1000; /* Ensures the navbar stays above other elements */
 }
+.logo img
+{
+    width: 75px;
+    object-fit: cover;
+    height: auto;
+}
 
 .navbar-section .nav-left{
-    width: 25%;
+    width: 20%;
+    
     /* background-color: antiquewhite; */
 }
 .navbar-section .nav-center{
