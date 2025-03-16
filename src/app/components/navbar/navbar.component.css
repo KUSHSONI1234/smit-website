@@ -1,5 +1,5 @@
 .navbar-section {
-    position: fixed; /* Makes the navbar stay at the top */
+    position: sticky; /* Makes the navbar stay at the top */
     top: 0;
     left: 0;
     width: 100%;
@@ -14,6 +14,7 @@
     box-shadow: 0 0 30px rgba(136, 80, 247, 0.369);
     z-index: 1000; /* Ensures the navbar stays above other elements */
 }
+
 .navbar-section .nav-left{
     width: 25%;
     /* background-color: antiquewhite; */
