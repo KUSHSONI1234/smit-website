@@ -110,7 +110,9 @@
         transform: translate(-50%, -50%);
     }
     .connect-box:hover{
-        box-shadow: 10px 4px 45px rgb(136, 80, 247);
+        /* box-shadow: 10px 4px 45px rgb(136, 80, 247); */
+        border: 1px solid #a559c9;
+        box-shadow: 0px 0px 8px 6px rgba(91, 9, 112, 0.702);
 
     }
 
@@ -138,7 +140,36 @@
     -webkit-animation: services-triangle 6s linear infinite alternate;
     animation: services-triangle 6s linear infinite alternate;
 }
-.bubble-2{
+.bubble-1{
+    max-width: 100%;
+}
+.home-section .bubble-4
+{
+position: absolute;
+left: 130px;
+top: 25%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+-webkit-animation: services-triangle 6s linear infinite alternate;
+animation: services-triangle 6s linear infinite alternate;
+}
+.bubble-4{
+    max-width: 100%;
+}
+
+.home-section .bubble-3
+{
+    position: absolute;
+    right: 190px;
+    top: 25%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-animation: services-triangle 6s linear infinite alternate;
+    animation: services-triangle 6s linear infinite alternate;
+}
+.bubble-3{
     max-width: 100%;
 }
     @keyframes services-triangle{

@@ -7,16 +7,16 @@
 }
 
 /* Section title */
-.project-container h2 {
-    font-size: 2.4rem;
+.project-container h1 {
+    font-size: 45px;
     color: white;
     margin-bottom: 30px;
     font-weight: 500;
     
 }
 
-.project-container h2 span{
-    color:#8645D9;
+.project-container h1 span{
+    color: #8750F7;
 }
 /* Project card styling */
 .project-card {

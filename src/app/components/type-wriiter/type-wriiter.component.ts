@@ -12,7 +12,7 @@ export class TypeWriiterComponent implements OnInit {
   roleIndex = 0;
   charIndex = 0;
   isDeleting = false;
-  typingSpeed = 100;
+  typingSpeed = 150;
 
   ngOnInit(): void {
     this.typeEffect();
