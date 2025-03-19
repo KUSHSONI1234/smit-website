@@ -18,4 +18,10 @@
       opacity: 0;
     }
   }
+
+  @media screen and (max-width:500px) {
+    .typewriter{
+      font-size: 28px;
+    }
+  }
   

@@ -184,3 +184,48 @@ animation: services-triangle 6s linear infinite alternate;
     }
 
     
+
+    @media screen and (max-width:500px) {
+        .home-section{
+            /* background-color: #2a1454; */
+            flex-direction: column;
+            margin-top: 8rem;
+            display: flex;
+            gap: 4rem;
+        }
+        .home-left .home-title{
+            font-size: 32px;
+        }
+        .home-left .home-heading{
+            font-size: 35px;
+        }
+        .home-right{
+            /* background-color: #a559c9; */
+            width: 100%;
+        }
+        .home-right img{
+            width: 90%;
+            margin: 0 auto;
+            display: block;
+            height: auto;
+            object-fit: contain;
+        }
+        .home-left button{
+            padding: 12px 20px;
+            font-size: 17px;
+        }
+        .home-contact h1{
+            font-size: 22px;
+            /* background-color: #2a1454; */
+            text-align:center;
+        }
+        .connect-all-links{
+            /* background-color: #2a1454; */
+            width: 100%;
+        }
+        .connect-all-links div{
+            width: 28px;
+            height: 28px;
+        }
+
+    }

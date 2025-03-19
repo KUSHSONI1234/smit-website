@@ -34,3 +34,29 @@
     /* border-radius: %; */
 
 }
+
+@media screen and (max-width:500px) {
+    .footer-section{
+        /* background-color:antiquewhite; */
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        /* text-align:center; */
+    }
+    .footer-section .design{
+        /* text-align: center; */
+        /* background-color: aliceblue; */
+        width: 100%;
+        /* font-size: 78px; */
+        /* font-weight: 800; */
+    }
+    .footer-section .copyright{
+        font-size: 17px;
+        margin: 0.8rem 0;
+        width: 100%;
+        text-align: center;
+    }
+    .footer-section .footer-flex{
+        margin-bottom: 0.5rem;
+    }
+}
