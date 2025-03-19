@@ -130,3 +130,43 @@
     opacity: 0.8;
     object-fit: cover;
 }
+
+@media screen and (max-width:500px) {
+    .experience-main{
+        display: flex;
+        gap: 5rem;
+        /* order: -1; */
+        flex-direction: column;
+    }
+    .experience-text{
+        width: 100%;
+        /* background-color: #474db8; */
+    }
+    .experience-text h1{
+        font-size: 28px;
+        text-align: center;
+    }
+    .company-text .company{
+        font-size: 20px;
+    }
+    .company-text .intern{
+        font-size: 20px;
+    }
+    .company-text .intern-content{
+        font-size: 16px;
+    }
+    .certi button{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .experience-image{
+        /* background-color: #7D49E5; */
+        width: 100%;
+    }
+    .experience-image img{
+        width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
