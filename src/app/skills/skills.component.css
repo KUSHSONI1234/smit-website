@@ -129,3 +129,27 @@
     border: 1px solid #8750F7;
     box-shadow: 0 4px 15px rgba(136, 80, 247, 0.4);
 }
+
+@media screen and (max-width:500px) {
+   
+    .skills-section h1{
+        /* background-color: #7b4ed5; */
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+    }
+    .skills-container{
+        /* background-color: black; */
+        width: 100%;
+        text-align: center;
+       
+    }
+    .skills-container .skill-card{
+        width: 120px;
+        height: 120px;
+        /* text-align: center; */
+        margin-left: auto;
+        margin-right: auto;
+        /* display: block; */
+    }
+}

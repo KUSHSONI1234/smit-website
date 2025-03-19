@@ -20,6 +20,7 @@
 .footer-flex i{
     color: white;
 }
+
 .footer-section .copyright{
     font-size: 18px;
     margin-right: 13rem;
@@ -39,6 +40,7 @@
     .footer-section{
         /* background-color:antiquewhite; */
         height: auto;
+        /* fonts */
         display: flex;
         flex-direction: column;
         /* text-align:center; */
@@ -59,4 +61,19 @@
     .footer-section .footer-flex{
         margin-bottom: 0.5rem;
     }
+}
+
+
+@media screen and (max-width:380px) {
+   .footer-flex p{
+    font-size: 4px;
+   }
+   .footer-section{
+    font-size: 16px;
+   }
+   .footer-section div:first-child{
+    font-size: 16px;
+    text-align: center;
+}
+
 }
