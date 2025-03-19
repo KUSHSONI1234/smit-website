@@ -44,7 +44,28 @@
 .tech-stack span {
     background: rgba(255, 255, 255, 0.2);
     padding: 5px 10px;
-    margin-right: 5px;
+    margin-right: 10px;
     border-radius: 5px;
     font-size: 0.8rem;
+}
+
+@media screen and (max-width:500px) {
+    .project-container h1{
+        font-size: 28px;
+        /* background-color: aliceblue; */
+        text-align: center;
+    }   
+    .project-container .project-card{
+        /* background-color: #8750F7; */
+        width: 80%;
+        /* height: auto; */
+        /* width: 300px; */
+        /* height: ; */
+    }
+    .project-card .tech-stack span{
+        /* margin: 20px; */
+        /* margin-right: 4px; */
+        margin-bottom: 1rem;
+        display: inline-block;
+    }
 }
