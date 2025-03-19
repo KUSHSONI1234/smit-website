@@ -101,6 +101,12 @@
     margin: 2.5rem 0 1.5rem;
     color:#8750F7;
 }
+.education-section-left h3{
+    color: #8750f7;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 1.4rem;
+}
 .about-left .personality-title span{
     color: white;
 }
@@ -124,7 +130,7 @@
     color: white;
     list-style-type: circle;
     font-size: 18px;
-    margin-top: 0.8rem;
+    /* margin-top: 0.8rem; */
 }
 
 .certi-section
@@ -225,13 +231,64 @@
 
 @media screen and (max-width:500px) {
     .about-section{
-        /* display: flex; */
-        
-        padding: 0;
-
         width: 100%;
-        /* background-color: #8750F7; */
+        display: flex;
+        gap: 5rem;
         flex-direction: column;
     }
-    
+   .about-section .about-left{
+    width: 100%;
+   }
+   .about-left h1{
+    /* background-color: #8750F7; */
+    font-size: 28px;
+   }
+   .about-left p{
+    font-size: 16px;
+   }
+    .personality-title{
+    /* font-size: 28px; */
+    font-size: 20px;
+    text-align: center;
+   }
+   .about-left ul li{
+    font-size: 16px;
+   }
+   .about-code-line{
+    font-size: 20px;
+    text-align: center;
+   }
+.about-left .about-innovative{
+    font-size: 18px;
+    margin-bottom: 0.6rem;
+}
+.about-section .about-right{
+    width: 100%;
+    /* background-color: #8750F7; */
+}
+.about-section .about-right img{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.education-section{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    width: 100%;
+}
+.education-section .education-section-left{
+    width: 85%;
+}
+.education-section .education-section-left h1{
+    font-size: 28px;
+}
+.education-section .education-section-left h2{
+    font-size: 24px;
+}
+.education-section-left ul li{
+    font-size: 16px;
+}
 }

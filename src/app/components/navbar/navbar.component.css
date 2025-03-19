@@ -106,6 +106,15 @@
     font-size: 30px;
     color: white;
 }
+.nav-button-responsive {
+    display: none; /* Hide by default on larger screens */
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav-center.open .nav-button-responsive {
+    display: flex; /* Display the button when navbar is toggled */
+}
 
 /* --- Responsive Design --- */
 @media (max-width: 1024px) {
