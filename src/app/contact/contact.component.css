@@ -147,3 +147,38 @@ background-image: linear-gradient(160deg, #0093E9 45% #80D0C7 40%); */
   
   
   
+
+  @media screen and (max-width:500px) {
+    .contact-title{
+      font-size: 28px;
+      width: 100%;
+      text-align:center;
+    }
+    .contact-sub-title{
+      font-size: 24px;
+      width: 100%;
+      text-align: center;
+    }
+    .contact-section{
+      display: flex;
+      flex-direction: column;
+      gap: 5rem;
+      
+    }
+    .contact-section .contact-left{
+      width: 100%;
+      /* background-color: #8750f7; */
+     }
+    .contact-right{
+      width: 100%;
+    }
+    .contact-section .contact-left img{
+      width: 80%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+ 
+
+  }
